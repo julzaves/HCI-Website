@@ -1,0 +1,58 @@
+.all_about {
+	font-family: horizon;
+    text-align: left;
+    margin: 0 0 0rem 0;
+    font-size: 3rem;
+    color: #fddd91;
+}
+
+.media_hub {
+	font-family: horizon;
+    text-align: left;
+	margin-top: -10px;
+	margin-right: auto;
+	margin-bottom: -93px;
+	margin-left: auto;
+	height: 200px;
+    font-size: 5rem;
+    color: #ef5a29;
+}
+
+.section1 {
+    display: flex;
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+
+.section1 .left {
+	margin-top: 45px;
+    width: 65%;
+    color: white;
+}
+
+.section1 .left p {
+	font-family: montserrat;
+    /* font-size: 0.8rem; */
+	margin-top: 10px;
+}
+
+.section1 .right {
+	display: flex;
+	align-items: center;
+}
+
+.section1 .right img.logo {
+    height: 25rem;
+    width: auto;
+    /* border-radius: 100%; */
+    margin-left: -4rem;
+    margin-top: -6rem;
+}
+
+.section1 .right img.some {
+    height: 5rem;
+    width: auto;
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
