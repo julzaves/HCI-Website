@@ -1,0 +1,76 @@
+@import url('./fonts.css');
+@import url('./header.css');
+/* @import url('./section1.css'); */
+@import url('./nav.css');
+
+body {
+    background-color: #070707;
+    overflow-x: hidden;
+}
+
+.section1 {
+    display: flex;
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+
+.header {
+	height: 4.2rem;
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.header .double_ring {
+	height: 100vh;
+	margin-left: -185px;
+	margin-bottom: 210px;
+}
+
+.section1 {
+    display: flex;
+    margin-top: -30px;
+    margin-left:-30px;
+}
+
+.section1 .left {
+    width: 40%;
+    /* background-color: rgba(38, 49, 60, 0.70); */
+	/* 38, 49, 60, 0.70 */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.section1 .left .cam {
+    height: 400px;
+}
+
+.section1 .right {
+    width: 60%;
+    /* background-color: rgba(0, 0, 0, 0.70); */
+	/* 0, 0, 0, 0.70 */
+}
+
+.section1 .right * {
+    margin: 25px;
+    color: white;
+}
+
+.section1 .right h1 {
+	font-family: agrandir;
+	font-size: 50px;
+}
+
+.section1 .right h1.what_is {
+	font-size: 50px;
+	margin-top: 0;
+	/* margin-bottom: -65px; */
+    color: #fddd91;
+    font-family: montserrat;
+}
+
+.section1 .right p {
+    width: 575px;
+}
