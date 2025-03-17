@@ -1,10 +1,14 @@
 @import url('./fonts.css');
 @import url('./header.css');
 @import url('./section1.css');
+@import url('./section2.css');
+@import url('./section3.css');
 @import url('./nav.css');
 /* @import url('./learn_more.css'); */
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: montserrat;
     background-color: #070707;
     overflow-x: hidden;

@@ -24,7 +24,8 @@
 }
 
 .header .rainbow_glow {
-	height: 150vh;
-	margin-left: -1965px;
-	margin-bottom: -1550px;
+	height: 100vh;
+	margin-left: -1900px;
+	margin-bottom: -1410px;
+	z-index: 1;
 }
