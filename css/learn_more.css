@@ -4,6 +4,7 @@
 @import url('./nav.css');
 
 body {
+    font-family: montserrat;
     background-color: #070707;
     overflow-x: hidden;
 }
@@ -63,14 +64,152 @@ body {
 	font-size: 50px;
 }
 
-.section1 .right h1.what_is {
+.section1 .right h1.title {
 	font-size: 50px;
 	margin-top: 0;
-	/* margin-bottom: -65px; */
-    color: #fddd91;
+	margin-bottom: -10px;
+    color: #fddd95;
     font-family: montserrat;
 }
 
 .section1 .right p {
     width: 575px;
+    font-family: montserrat;
+    font-size: 15px;
+}
+
+.center_design {
+    height: 685px;
+    margin-left: -195px;
+    margin-top: -185px;
+}
+
+.section2 {
+    margin-top: -300px;
+    margin-left: 90px;
+}
+
+.section2 .title {
+    color: #fddd91;
+    margin-left: 10px;
+}
+
+.section2 .title h1 {
+    font-family: horizon;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.section2 .title h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.section2 .fields {
+    display: grid;
+    color: #f58820;
+    gap: 60px;
+}
+
+.section2 .fields .field.left {
+    display: flex;
+}
+
+.section2 .fields .field.left h1 {
+    margin-top: 70px;
+}
+
+.section2 .fields .field.left .img_container {
+    position: relative;
+    width: 170vh;
+}
+
+.section2 .fields .field.left .img_container .bg {
+    width: 75%;
+    height: auto;
+    margin-left: -440px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2 .fields .field.left .img_container .desc {
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 60vh;
+    height: auto;
+    margin-top: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.section2 .fields .field.left .img_container .img {
+    position: absolute;
+    top: 5px;
+    left: 110px;
+    width: 38vh;
+    height: auto;
+    border-radius: 0% 10% 10% 0%;
+}
+
+.section2 .fields .field.left:hover .img_container .bg {
+    transform: translateX(50%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2 .fields .field.left:hover .img_container .desc {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2 .fields .field.right {
+    display: flex;
+}
+
+.section2 .fields .field.right h1 {
+    /* margin-top: 70px; */
+}
+
+.section2 .fields .field.right .img_container {
+    position: relative;
+    width: 170vh;
+}
+
+.section2 .fields .field.right .img_container .bg {
+    width: 75%;
+    height: auto;
+    margin-left: 710px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section2 .fields .field.right .img_container .desc {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    width: 60vh;
+    height: auto;
+    margin-top: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.section2 .fields .field.right .img_container .img {
+    position: absolute;
+    top: 5px;
+    right: 110px;
+    width: 38vh;
+    height: auto;
+    border-radius: 10% 0% 0% 10%;
+}
+
+.section2 .fields .field.right:hover .img_container .bg {
+    transform: translateX(-50%);
+}
+
+.section2 .fields .field.right:hover .img_container .desc {
+    opacity: 1;
+    transform: translateX(-100%);
 }

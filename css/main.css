@@ -5,6 +5,7 @@
 /* @import url('./learn_more.css'); */
 
 body {
+    font-family: montserrat;
     background-color: #070707;
     overflow-x: hidden;
 }
