@@ -4,7 +4,12 @@
 @import url('./section2.css');
 @import url('./section3.css');
 @import url('./nav.css');
+@import url('./footer.css');
 /* @import url('./learn_more.css'); */
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
