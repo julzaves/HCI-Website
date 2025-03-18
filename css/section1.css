@@ -34,7 +34,6 @@
 
 .section1 .left p {
 	font-family: montserrat;
-    /* font-size: 0.8rem; */
 	margin-top: 10px;
 }
         
@@ -49,7 +48,6 @@
     border: 2px solid #fddd91;
     border-radius: 40px;
     transition: transform 0.3s ease-in-out;
-    /* transition: color 0.3s ease-in-out; */
     background-color: transparent;
 }
 
@@ -68,7 +66,6 @@
 .section1 .right img.logo {
     height: 25rem;
     width: auto;
-    /* border-radius: 100%; */
     margin-left: -2rem;
     margin-top: -10rem;
 }

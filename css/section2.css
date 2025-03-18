@@ -16,13 +16,8 @@ h1 {
 }
 
 .section2 .left {
-	/* margin-top: 45px; */
     width: 50%;
 }
-
-/* .section1 .left .title {
-    width: 170vh;
-} */
 
 .section2 .left .title img {
     width: 75vh;
@@ -85,7 +80,6 @@ h1 {
 
 .section2 .left .down h5 {
     margin-top: -35px;
-    /* width: 38vh; */
 }
 
 .section2 .right {
@@ -97,7 +91,5 @@ h1 {
 .section2 .right img.pic {
     height: 20rem;
     width: auto;
-    /* border-radius: 100%; */
     margin-left: 5rem;
-    /* margin-top: -10rem; */
 }

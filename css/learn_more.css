@@ -1,6 +1,5 @@
 @import url('./fonts.css');
 @import url('./header.css');
-/* @import url('./section1.css'); */
 @import url('./nav.css');
 @import url('./footer.css');
 
@@ -40,8 +39,6 @@ body {
 
 .section1 .left {
     width: 40%;
-    /* background-color: rgba(38, 49, 60, 0.70); */
-	/* 38, 49, 60, 0.70 */
     display: flex;
     justify-content: right;
     align-items: right;
@@ -53,8 +50,6 @@ body {
 
 .section1 .right {
     width: 60%;
-    /* background-color: rgba(0, 0, 0, 0.70); */
-	/* 0, 0, 0, 0.70 */
 }
 
 .section1 .right * {

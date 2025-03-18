@@ -12,13 +12,8 @@ h1 {
 }
 
 .section3 .left {
-	/* margin-top: 45px; */
     width: 50%;
 }
-
-/* .section1 .left .title {
-    width: 170vh;
-} */
 
 .section3 .left .title img {
     width: 75vh;
@@ -58,7 +53,6 @@ h1 {
 
 .section3 .left .down h5 {
     margin-top: -35px;
-    /* width: 38vh; */
 }
 
 .section3 .right .cards {
